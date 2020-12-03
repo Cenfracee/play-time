@@ -4,7 +4,7 @@ const superConfig = require('./webpack.config');
 
 module.exports=merge(superConfig,{
     devServer:{
-        port: 3000
+        port: 3005;
     },
     devtool: false,
     mode:'development',
